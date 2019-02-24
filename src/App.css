@@ -1,0 +1,38 @@
+header {
+  display: block;
+  min-height: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 24px;
+  border-bottom: 4px solid #ffa500;
+  background-color: rgba(33,33,33,0.5);
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.synonyms-list {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.synonyms-list-item {
+  width: 100%;
+  flex: 1 1 auto;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.synonyms-list-item:hover {
+  color:chartreuse; 
+}
